@@ -395,6 +395,10 @@ h1 {
 	font-size: 3em;
 }
 
+h1 small {
+	color: white;
+}
+
 h1,h2 {
 	margin: 0 0 40px;
 }
@@ -995,7 +999,7 @@ footer li.signup-link a:hover {
 }
 
 #comments .comment-metadata {
-	margin: 10px 0 0;
+	margin: 10px 0 0; 
 }
 /* === RESOURCES === */
 
