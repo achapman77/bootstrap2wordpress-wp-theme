@@ -62,6 +62,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.navbar-nav > li.current_page_item a,
+.navbar-nav > li.current_page_parent a {
+	color: white;
+}
 
 /* Small menu. */
 .menu-toggle,
@@ -409,6 +413,10 @@ h3 {
 
 h4 {
 	font-size: 18px;
+}
+
+.lead {
+	text-align: center;
 }
 
 p.lead {
